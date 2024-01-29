@@ -1,0 +1,348 @@
+CRITICAL - 2023-11-18 15:35:27 --> syntax error, unexpected end of file
+in APPPATH/Views/affichage_etapes.php on line 40.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Etape.php(27): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 15:35:27 --> Uncaught ErrorException: chmod() has been disabled for security reasons in /home/2023DIFAL3/e22107124/public_html/V1/ci/system/Log/Handlers/FileHandler.php:119
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/2023DIFAL3/e22107124/public_html/V1/ci/system/Log/Handlers/FileHandler.php(119): chmod()
+#2 /home/2023DIFAL3/e22107124/public_html/V1/ci/system/Log/Logger.php(294): CodeIgniter\Log\Handlers\FileHandler->handle()
+#3 /home/2023DIFAL3/e22107124/public_html/V1/ci/system/Common.php(810): CodeIgniter\Log\Logger->log()
+#4 /home/2023DIFAL3/e22107124/public_html/V1/ci/system/Debug/Exceptions.php(133): log_message()
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#6 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected end of file
+#0 /home/2023DIFAL3/e22107124/public_html/V1/ci/system/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/2023DIFAL3/e22107124/public_html/V1/ci/system/Common.php(1190): CodeIgniter\View\View->render()
+#2 /home/2023DIFAL3/e22107124/public_html/V1/ci/app/Controllers/Etape.php(27): view()
+#3 /home/2023DIFAL3/e22107124/public_html/V1/ci/system/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+#4 /home/2023DIFAL3/e22107124/public_html/V1/ci/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#5 /home/2023DIFAL3/e22107124/public_html/V1/ci/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/2023DIFAL3/e22107124/public_html/V1/ci/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in SYSTEMPATH/Log/Handlers/FileHandler.php on line 119.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-18 15:36:26 --> syntax error, unexpected end of file
+in APPPATH/Views/affichage_etapes.php on line 40.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Etape.php(27): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 15:48:35 --> syntax error, unexpected end of file
+in APPPATH/Views/affichage_etapes.php on line 40.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Etape.php(27): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 15:48:38 --> syntax error, unexpected end of file
+in APPPATH/Views/affichage_etapes.php on line 40.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Etape.php(27): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 15:49:44 --> syntax error, unexpected end of file
+in APPPATH/Views/affichage_etapes.php on line 42.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Etape.php(27): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 15:49:49 --> syntax error, unexpected end of file
+in APPPATH/Views/affichage_etapes.php on line 42.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Etape.php(27): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 15:50:10 --> syntax error, unexpected end of file
+in APPPATH/Views/affichage_etapes.php on line 40.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Etape.php(27): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 16:00:34 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+in APPPATH/Views/affichage_etapes.php on line 39.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Etape.php(27): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 16:04:15 --> Undefined index: codeScenario
+in APPPATH/Views/affichage_etapes.php on line 39.
+ 1 APPPATH/Views/affichage_etapes.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2023DIFAL3/e22107124/public_html/V1/ci/app/Views/affichage_etapes.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Etape.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 16:13:38 --> Undefined index: codeScenario
+in APPPATH/Views/affichage_etapes.php on line 39.
+ 1 APPPATH/Views/affichage_etapes.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2023DIFAL3/e22107124/public_html/V1/ci/app/Views/affichage_etapes.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Etape.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 16:13:45 --> Undefined index: codeScenario
+in APPPATH/Views/affichage_etapes.php on line 39.
+ 1 APPPATH/Views/affichage_etapes.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2023DIFAL3/e22107124/public_html/V1/ci/app/Views/affichage_etapes.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Etape.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 16:13:51 --> Undefined index: codeScenario
+in APPPATH/Views/affichage_etapes.php on line 39.
+ 1 APPPATH/Views/affichage_etapes.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2023DIFAL3/e22107124/public_html/V1/ci/app/Views/affichage_etapes.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Etape.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 16:15:19 --> Undefined index: SCE_codeScenario
+in APPPATH/Views/affichage_etapes.php on line 39.
+ 1 APPPATH/Views/affichage_etapes.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2023DIFAL3/e22107124/public_html/V1/ci/app/Views/affichage_etapes.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Etape.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 17:42:16 --> Undefined index: data
+in APPPATH/Views/affichage_etapes.php on line 39.
+ 1 APPPATH/Views/affichage_etapes.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2023DIFAL3/e22107124/public_html/V1/ci/app/Views/affichage_etapes.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Etape.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 17:42:47 --> Undefined index: etape
+in APPPATH/Views/affichage_etapes.php on line 39.
+ 1 APPPATH/Views/affichage_etapes.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2023DIFAL3/e22107124/public_html/V1/ci/app/Views/affichage_etapes.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Etape.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 18:01:36 --> Undefined variable: sce
+in APPPATH/Views/affichage_etapes.php on line 14.
+ 1 APPPATH/Views/affichage_etapes.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2023DIFAL3/e22107124/public_html/V1/ci/app/Views/affichage_etapes.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Etape.php(29): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 18:02:19 --> Undefined variable: scenario
+in APPPATH/Views/affichage_etapes.php on line 14.
+ 1 APPPATH/Views/affichage_etapes.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2023DIFAL3/e22107124/public_html/V1/ci/app/Views/affichage_etapes.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Etape.php(29): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 18:06:02 --> Cannot use object of type stdClass as array
+in APPPATH/Views/affichage_etapes.php on line 14.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Etape.php(29): view()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 18:07:34 --> Cannot use object of type stdClass as array
+in APPPATH/Views/affichage_etapes.php on line 14.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Etape.php(29): view()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 18:08:43 --> Cannot use object of type stdClass as array
+in APPPATH/Views/affichage_etapes.php on line 15.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Etape.php(29): view()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 18:09:46 --> Illegal string offset 'SCE_intituleScenario'
+in APPPATH/Views/affichage_etapes.php on line 17.
+ 1 APPPATH/Views/affichage_etapes.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2023DIFAL3/e22107124/public_html/V1/ci/app/Views/affichage_etapes.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Etape.php(29): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 18:10:47 --> Illegal string offset 'SCE_intituleScenario'
+in APPPATH/Views/affichage_etapes.php on line 15.
+ 1 APPPATH/Views/affichage_etapes.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2023DIFAL3/e22107124/public_html/V1/ci/app/Views/affichage_etapes.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Etape.php(29): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 18:11:52 --> Undefined variable: sce
+in APPPATH/Views/affichage_etapes.php on line 15.
+ 1 APPPATH/Views/affichage_etapes.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2023DIFAL3/e22107124/public_html/V1/ci/app/Views/affichage_etapes.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Etape.php(29): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 18:12:05 --> Illegal string offset 'SCE_intituleScenario'
+in APPPATH/Views/affichage_etapes.php on line 15.
+ 1 APPPATH/Views/affichage_etapes.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2023DIFAL3/e22107124/public_html/V1/ci/app/Views/affichage_etapes.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Etape.php(29): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 18:16:33 --> Illegal string offset 'SCE_intituleScenario'
+in APPPATH/Views/affichage_etapes.php on line 14.
+ 1 APPPATH/Views/affichage_etapes.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2023DIFAL3/e22107124/public_html/V1/ci/app/Views/affichage_etapes.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Etape.php(29): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 18:41:43 --> syntax error, unexpected '"</h3></div>"' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+in APPPATH/Views/affichage_etapes.php on line 14.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Etape.php(29): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 18:42:42 --> syntax error, unexpected '}', expecting end of file
+in APPPATH/Views/affichage_etapes.php on line 37.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Etape.php(29): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 18:43:53 --> Undefined variable: eta
+in APPPATH/Views/affichage_etapes.php on line 13.
+ 1 APPPATH/Views/affichage_etapes.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2023DIFAL3/e22107124/public_html/V1/ci/app/Views/affichage_etapes.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Etape.php(29): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 18:44:04 --> Cannot use object of type stdClass as array
+in APPPATH/Views/affichage_etapes.php on line 13.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Etape.php(29): view()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 19:13:24 --> Cannot use object of type stdClass as array
+in APPPATH/Views/affichage_etapes.php on line 13.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Etape.php(29): view()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 19:53:14 --> Cannot use object of type stdClass as array
+in APPPATH/Views/affichage_etapes.php on line 13.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Etape.php(29): view()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 19:53:45 --> Cannot use object of type stdClass as array
+in APPPATH/Views/affichage_etapes.php on line 13.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Etape.php(29): view()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Etape->etape_jouer()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
